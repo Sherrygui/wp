@@ -10,6 +10,7 @@ p{
 	font-family: Oswald, avenir, sans-serif;
 	text-align: justify;
 	color: #3c3d3d;
+	margin-top: 1.5em;
 }
 
 .main{
@@ -47,4 +48,14 @@ h1{
 h2{
 	color: #51500f;
 	margin-top: 2.5em;
+}
+
+.quote{
+	color: #577f7f;
+	font-weight: 500;
+}
+
+.quote2{
+	color: #577f7f;
+	font-weight: 500;
 }

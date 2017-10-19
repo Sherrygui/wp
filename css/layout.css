@@ -196,7 +196,7 @@ h1{
 	float: left;
 	width: 40%;
 	margin-right: 5%;
-	margin-top: 1.3em;
+	margin-top: 1.8em;
 }
 
 .exterior_p{
@@ -242,14 +242,14 @@ h1{
 	float: left;
 	width: 20%;
 	margin-right: 5%;
-	margin-top: 1em;
+	margin-top: 1.5em;
 }
 
 .left_p1{
 	float: left;
 	width: 75%;
 	background-color: rgba(255, 245, 216, 0.1);
-	padding: 0 1em 0 1em;
+	padding: 0 1.5em 0 1.5em;
 }
 
 .quote{
@@ -262,7 +262,7 @@ h1{
 	background-color: rgba(174, 230, 255, 0.1);
 	margin-left: auto;
 	margin-right: auto;
-	padding: 1em 1em 1em 1em;
+	padding: 1.5em 1.5em 1.5em 1.5em;
 }
 
 .left_story2{
@@ -277,7 +277,7 @@ h1{
 .left_img2{
 	float: left;
 	width: 25%;
-	margin-top: 1em;
+	margin-top: 1.5em;
 }
 
 /* Right panel*/
@@ -285,7 +285,7 @@ h1{
 	float: left;
 	width: 35%;
 	margin-right: 5%;
-	margin-top: 1em;
+	margin-top: 1.5em;
 
 }
 
@@ -299,4 +299,86 @@ h1{
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
+}
+
+.center_img34{
+	text-align: center;
+	padding-left: 10%;
+	margin-top: 2em;
+}
+
+.center_img3{
+	float: left;
+	width: 40%;
+	margin-right: 10%;
+}
+
+.center_img4{
+	float: left;
+	width: 37.8%;
+}
+
+.center_story2{
+	margin-top: 2em;
+}
+.center_p2{
+	float: left;
+	width: 60%;
+	background-color: rgba(255, 245, 216, 0.1);
+	padding: 0 1.5em 0 1.5em;
+	margin-right: 5%;
+}
+
+.quote2{
+	text-align: center;
+}
+
+.quote2 p{
+	text-align: justify;
+	width: 80%;
+	background-color: rgba(174, 230, 255, 0.1);
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em 1em 1em 1em;
+}
+
+.center_img5{
+	float: left;
+	width: 35%;
+	margin-top: 1.5em;
+}
+
+.center_story3{
+	margin-top: 2em;
+}
+
+.center_img6{
+margin-top: 2em;
+}
+
+.story{
+	margin-top: 2em;
+}
+
+.center_img78{
+	text-align: center;
+	padding-left: 8%;
+	margin-top: 2em;
+}
+
+.center_img7{
+	float: left;
+	width: 37%;
+	margin-right: 10%;
+}
+
+.center_img8{
+	float: left;
+	width: 45%;
+}
+
+/* Right Panel */
+.right_p1{
+	float: left;
+	width: 75%;
 }
