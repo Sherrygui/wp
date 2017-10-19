@@ -5,25 +5,298 @@
 	and other elements used for layout. */
 
 /*
-div, main, article, section, aside, 
+div, main, article, section, aside,
 hgroup, header, footer, address, nav {
 	border: 1px solid rgba(255,0,0,0.15) !important;
-	background: rgba(255,0,0,0.05) !important;		
+	background: rgba(255,0,0,0.05) !important;
 }
 */
-
-
 
 /*	Generally, you will only want one container element in
 	the document, wrapping around the main content area. */
 .container {
-	margin-top: 1em;
+	margin-top: 0;
 	margin-right: auto;
 	margin-bottom: 1em;
 	margin-left: auto;
-	width: 90%;
-	max-width: 1200px;
+	width: 100%;
+	width: 1200px;
 	padding: 2em;
-	border: 1px solid #eee;
+	/*border: 1px solid #eee;*/
 }
 
+.intro {
+	background-color: #c09f59;
+	background-image: url('../img/whole2.jpg');
+	background-repeat: no-repeat;
+}
+
+body{
+	background-color: #c09f59;
+}
+
+.global-navbar{
+	background: #9c6a5f;
+}
+
+h1{
+	display: block;
+	padding: 15px 0.5em 18px;
+	background: #9c6a5f;
+	color: #e4cd7d;
+	float: left;
+	width: 30%;
+	padding-left: 5%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* main page nav */
+
+.main{
+	display: block;
+	padding: 30px 0.5em 15px;
+	background: #9c6a5f;
+	color: #e4cd7d;
+	float: left;
+	width: 35%;
+	padding-left: 5%;
+	margin-bottom: 0;
+}
+
+.global-nav-main{
+	float: right;
+	width: 65%;
+}
+
+.global-nav-main nav{
+	float: right;
+	width: 65%;
+}
+.global-nav-main ul{
+	margin: 0;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	background: #9c6a5f;
+	padding-right: 60px;
+
+}
+
+.global-nav-main li{
+	float: right;
+	margin-left: 5px;
+	width: 7em;
+	background: #aaa;
+}
+
+.global-nav-main a{
+	display: block;
+	padding: 0.5em 0.5em;
+	background: #9c6a5f;
+	color: #e4cd7d;
+	text-decoration: none;
+	text-align: center;
+}
+
+.global-nav-main a:hover{
+	background-color: #555;
+}
+
+/*global nav*/
+.global-nav{
+	float: right;
+	width: 70%;
+
+}
+.global-nav nav{
+	float: right;
+	width: 70%;
+}
+.global-nav ul{
+	margin: 0;
+	padding-top: 25px;
+	background: #9c6a5f;
+	padding-right: 60px;
+	padding-bottom: 15px;
+
+}
+
+.global-nav li{
+	float: right;
+	margin-left: 5px;
+	width: 7em;
+	background: #aaa;
+}
+
+.global-nav a{
+	display: block;
+	padding: 0.5em 0.5em;
+	background: #9c6a5f;
+	color: #e4cd7d;
+	text-decoration: none;
+	text-align: center;
+}
+
+.global-nav a:hover{
+	background-color: #555;
+}
+
+.local-nav{
+	text-align: center;
+}
+
+.local-nav nav{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.local-nav ul{
+	margin: 0;
+	text-align: center;
+}
+
+.local-nav li{
+	float: left;
+	margin-left: 5px;
+	width: 7em;
+	background: #aaa;
+}
+
+.local-nav a{
+	display: block;
+	padding: 0.5em 0.5em;
+	background: #9c6a5f;
+	color: #e4cd7d;
+	text-decoration: none;
+	text-align: center;
+}
+
+.local-nav a:hover{
+	background-color: #555;
+}
+/* Intro Page */
+
+.intro_story{
+	text-align: center;
+	background-color: rgba(192,159,89,0.9)
+
+}
+.intro_p{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3em 3em 3em 3em;
+	width: 70%;
+
+}
+
+
+/* Exterior Page */
+.exterior_img{
+	float: left;
+	width: 40%;
+	margin-right: 5%;
+	margin-top: 1.3em;
+}
+
+.exterior_p{
+	float: left;
+	width: 55%;
+}
+
+/* Interior Page */
+.interior_img{
+	text-align: center;
+
+}
+
+.interior_left{
+	float: left;
+	width: 20%;
+	margin-right: 5%;
+}
+
+.interior_center{
+	float: left;
+	width: 45%;
+	margin-right: 5%;
+}
+
+.interior_right{
+	float: left;
+	width: 20%;
+	margin-right: 4%;
+}
+
+.notation{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.interior_p{
+	margin-top: 2em;
+}
+
+/* Left panel*/
+.left_img1{
+	float: left;
+	width: 20%;
+	margin-right: 5%;
+	margin-top: 1em;
+}
+
+.left_p1{
+	float: left;
+	width: 75%;
+	background-color: rgba(255, 245, 216, 0.1);
+	padding: 0 1em 0 1em;
+}
+
+.quote{
+	text-align: center;
+}
+
+.quote p{
+	text-align: justify;
+	width: 60%;
+	background-color: rgba(174, 230, 255, 0.1);
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em 1em 1em 1em;
+}
+
+.left_story2{
+	margin-top: 2em;
+}
+.left_p2{
+	float: left;
+	width: 70%;
+	margin-right: 5%;
+}
+
+.left_img2{
+	float: left;
+	width: 25%;
+	margin-top: 1em;
+}
+
+/* Right panel*/
+.center_img1{
+	float: left;
+	width: 35%;
+	margin-right: 5%;
+	margin-top: 1em;
+
+}
+
+.center_p1{
+	float: left;
+	width: 60%;
+}
+
+.center_img2{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}

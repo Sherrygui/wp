@@ -1,7 +1,50 @@
 
 body {
-	font-family: Georgia, "Times New Roman",Times,serif;
+	font-family: "Germania One",cursive;
 	font-size: 16px;
 	line-height: 1.5em;
 	color: #222;
+}
+
+p{
+	font-family: Oswald, avenir, sans-serif;
+	text-align: justify;
+	color: #3c3d3d;
+}
+
+.main{
+	font-family: "Germania One",cursive;
+	font-size: 30px;
+	line-height: 1.5em;
+}
+
+h1{
+	font-family: "Germania One",cursive;
+	font-size: 43px;
+	line-height: 1.5em;
+}
+
+.global-nav-main a{
+	font-family: "Germania One",cursive;
+	font-size:23px;
+	line-height: 1.5em;
+}
+
+.global-nav a{
+	font-family: "Germania One",cursive;
+	font-size:23px;
+	line-height: 1.5em;
+}
+
+.notation{
+	font-family: Oswald, avenir, sans-serif;
+	font-size: 14px;
+	font-weight: lighter;
+	text-align: justify;
+	color: #3c3d3d;
+}
+
+h2{
+	color: #51500f;
+	margin-top: 2.5em;
 }
