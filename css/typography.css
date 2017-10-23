@@ -59,3 +59,14 @@ h2{
 	color: #577f7f;
 	font-weight: 500;
 }
+
+.pullquote{
+	font-family: Oswald, avenir, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: left;
+	color: #577f7f;
+	border-top: solid #577f7f 2px;
+	padding-top: 0.5em;
+	line-height: 1.5em;
+}

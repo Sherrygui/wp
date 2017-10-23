@@ -141,32 +141,36 @@ h1{
 	background-color: #555;
 }
 
+/* Local navbar */
 .local-nav{
 	text-align: center;
+	margin-bottom: 2em;
+
 }
 
 .local-nav nav{
 	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .local-nav ul{
 	margin: 0;
-	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
 }
 
 .local-nav li{
 	float: left;
 	margin-left: 5px;
-	width: 7em;
-	background: #aaa;
+	width: 15em;
+	background: rgba(184, 152, 85, 0.9);
 }
 
 .local-nav a{
 	display: block;
 	padding: 0.5em 0.5em;
-	background: #9c6a5f;
+	/*background: #E8BC60;*/
+	background: rgba(184, 152, 85, 0.9);
 	color: #e4cd7d;
 	text-decoration: none;
 	text-align: center;
@@ -381,4 +385,186 @@ margin-top: 2em;
 .right_p1{
 	float: left;
 	width: 75%;
+}
+
+.right_img34{
+	text-align: center;
+	margin-top: 2em;
+}
+
+.right_img3{
+	float: left;
+	width: 52.5%;
+	margin-right: 12.5%;
+}
+
+.right_img4{
+	float: left;
+	width: 35%;
+}
+
+
+.right_img56{
+	text-align: center;
+	margin-top: 2em;
+}
+
+.right_img5{
+	float: left;
+	width: 18%;
+	margin-right: 5%;
+	margin-top: 1.5em;
+
+}
+
+.right_p2{
+	float: left;
+	width: 50%;
+	margin-right: 5%;
+}
+.right_img6{
+	float: left;
+	width: 22%;
+	margin-top: 1.5em;
+}
+
+
+/* More */
+/* Dating and Provenance */
+.dating_p{
+	float: left;
+	width: 55%;
+	margin-right: 5%;
+
+}
+
+.dating_p2{
+	float: left;
+	width: 40%;
+}
+
+.dating_h2{
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+.dating_img12{
+	text-align: center;
+	margin-top: 2em;
+}
+
+.dating_img1{
+	float: left;
+	width: 20%;
+	margin-right: 5%;
+	margin-top: 1.5em;
+
+}
+
+.dating_p3{
+	float: left;
+	width: 50%;
+	margin-right: 5%;
+}
+.dating_img2{
+	float: left;
+	width: 19%;
+	margin-top: 1.5em;
+}
+
+.dating_p4{
+	float: left;
+	width: 40%;
+	margin-right: 5%;
+}
+
+.dating_p5{
+	float: left;
+	width: 55%;
+}
+
+/* Source and context */
+.source_img3{
+	float: left;
+	width: 35%;
+
+	margin-right: 5%;
+	margin-top: 1.5em;
+}
+
+.source_p{
+	float: left;
+	width: 50%;
+}
+.source_img45{
+	text-align: center;
+	padding-left: 12.5%;
+	margin-top: 2em;
+}
+
+.source_img4{
+	float: left;
+	width: 36.8%;
+	margin-right: 10%;
+}
+
+.source_img5{
+	float: left;
+	width: 40%;
+}
+
+.source_p2{
+	float: left;
+	width: 60%;
+	margin-right: 5%;
+
+}
+
+.pullquote{
+	float: left;
+	width: 30%;
+}
+
+/* Interpretation */
+.interpretation_img2{
+	float: left;
+	width: 30%;
+	margin-right: 5%;
+	margin-top: 1.5em;
+
+}
+.interpretation_p{
+	float: left;
+	width: 65%;
+
+}
+
+/* Legacy */
+.legacy_img12{
+	text-align: center;
+
+	margin-top: 2em;
+}
+
+.legacy_img1{
+	float: left;
+	width: 55%;
+	margin-right: 10%;
+}
+
+.legacy_img2{
+	float: left;
+	width: 32.5%;
+}
+
+.legacy_img3{
+	float: left;
+	width: 30%;
+	margin-right: 5%;
+	margin-top: 1.5em;
+	}
+
+.legacy_p2{
+	float: left;
+	width: 65%;
 }
