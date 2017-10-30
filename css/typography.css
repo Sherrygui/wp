@@ -39,10 +39,11 @@ h1{
 
 .notation{
 	font-family: Oswald, avenir, sans-serif;
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: lighter;
 	text-align: justify;
 	color: #3c3d3d;
+	line-height: 1.4em;
 }
 
 h2{

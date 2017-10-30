@@ -30,6 +30,8 @@ hgroup, header, footer, address, nav {
 	background-color: #c09f59;
 	background-image: url('../img/whole2.jpg');
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 body{
@@ -166,6 +168,7 @@ h1{
 	width: 15em;
 	/*background: rgba(74, 61, 34, 1);*/
 	background: rgba(72,59,40,0.3);
+	margin-bottom: 5px;
 }
 
 .local-nav a{
@@ -194,7 +197,6 @@ h1{
 	margin-right: auto;
 	padding: 3em 3em 3em 3em;
 	width: 70%;
-
 }
 
 
@@ -569,4 +571,102 @@ margin-top: 2em;
 .legacy_p2{
 	float: left;
 	width: 65%;
+}
+
+/* mobile */
+/*@media screen and (max-width: 980px){
+	.global-navbar{
+		height: 50%;
+	}
+	.global-navbar ul{
+		text-align: center;
+
+	}
+}*/
+@media screen and (max-width: 738px){
+
+
+	.mini{
+    clear: both;
+    width: 100%;
+
+  }
+	.global-nav{
+		width: 100%;
+		text-align: center;
+	}
+	.global-nav nav{
+		width: 70%;
+	}
+	.global-nav ul{
+		background: #9c6a5f;
+		margin-left: auto;
+		margin-right: auto;
+		display: inline-block;
+		padding: 0;
+
+	}
+
+	.global-navbar li{
+		float: none;
+		width: 15em;
+	}
+
+	.global-navbar a{
+		font-size: 1em;
+	}
+
+	.local-nav{
+		text-align: center;
+		margin-bottom: 2em;
+
+	}
+
+	.local-nav nav{
+		text-align: center;
+	}
+
+	.local-nav ul{
+		padding: 0;
+		margin-left: auto;
+		margin-right: auto;
+		display: inline-block;
+	}
+
+	.local-nav li{
+		float: none;
+		margin-left: 5px;
+		width: 15em;
+		/*background: rgba(74, 61, 34, 1);*/
+		background: rgba(72,59,40,0.3);
+
+	}
+
+
+
+
+
+	p{
+    font-size: 0.8em;
+  }
+
+  h1{
+    font-size: 2em;
+    font-weight: bold;
+		float: none;
+		text-align: center;
+		width: 100%;
+		padding: 15px 0 0 0.3em;
+  }
+  .container{
+    width: 100%;
+		clear: both;
+  }
+
+	.intro_p{
+		padding: 1em 1em 1em 1em;
+		width: 90%;
+	}
+
+
 }
